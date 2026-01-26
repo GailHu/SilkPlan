@@ -1,0 +1,33 @@
+{
+    "header":{
+        "title":"{{ project_name }}招标文件",
+        "date":"{{ current_date }}",
+        "project_id":"{{ project_id }}",
+        "project_type":"{{ project_type }}",
+        "project_description":"{{ project_description }}",
+        "project_budget":"{{ project_budget }}",
+        "bidding_start_date":"{{ bidding_start_date }}",
+        "bidding_end_date":"{{ bidding_end_date }}"
+    },
+    "body":{
+        "introduction":"本次招标旨在{{ project_description }}，欢迎符合条件的投标方参与投标。",
+        "eligibility_criteria":[
+            "投标方应具备[相应的资质]，在[相关行业]有[一定年限]的从业经验。",
+            "提供[所需的资质证明文件]，包括但不限于[营业执照、行业资质证书等]。"
+        ],
+        "bidding_requirements":[
+            "投标文件应包含[公司基本信息、项目方案、报价等部分]。",
+            "报价应包括[各项费用明细]，以[货币单位]为单位。",
+            "投标文件的格式应为[指定格式]，并在[投标截止日期]前提交至[指定地点]。"
+        ],
+        "technical_requirements":[
+            "本项目的技术要求如下：{{ tech_standards }}",
+            "遵循的技术标准：[参考知识图谱中的技术标准信息]"
+        ],
+        "evaluation_criteria":[
+            "将根据[投标方的资质、项目方案、报价、技术方案等方面]进行综合评估。",
+            "技术方案的评估因素包括[创新性、可行性、完整性等]。",
+            "报价的评估将考虑[合理性、性价比等因素]。"
+        ]
+    }
+}

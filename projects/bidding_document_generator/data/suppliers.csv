@@ -1,0 +1,8 @@
+supplier_id,supplier_name,address,contact_email,contact_phone,company_size,industry
+1,"建筑公司A","123 Main St, City A","info@constructionA.com","123-456-7890",500,"建筑"
+2,"科技公司B","456 Tech St, City B","info@techB.com","234-567-8901",200,"科技"
+3,"软件公司C","789 Software St, City C","info@softwareC.com","345-678-9012",300,"软件"
+4,"环保公司D","321 Green St, City D","info@environmentalD.com","456-789-0123",150,"环保"
+5,"办公用品供应商E","555 Office St, City E","info@officeE.com","567-890-1234",100,"办公用品"
+6,"绿化公司F","666 Garden St, City F","info@gardenF.com","678-901-2345",80,"绿化"
+7,"网络安全公司G","777 Cyber St, City G","info@cyberG.com","789-012-3456",120,"网络安全"

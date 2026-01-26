@@ -1,0 +1,16 @@
+{
+    "header":{
+        "title":"{{ project_name }}中标通知书",
+        "date":"{{ current_date }}",
+        "project_id":"{{ project_id }}"
+    },
+    "body":{
+        "content":"恭喜[中标方名称]成功中标{{ project_name }}项目。",
+        "details":[
+            "中标金额：{{ winning_amount }}。",
+            "请于[合同签订日期]前与[招标方名称]联系，签订合同。",
+            "合同签订地点：[指定地点]。",
+            "请按照招标文件和投标文件的要求履行合同义务。"
+        ]
+    }
+}

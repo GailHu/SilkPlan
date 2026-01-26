@@ -1,0 +1,8 @@
+expert_id,expert_name,expertise,experience_years,contact_email,contact_phone
+1,"专家甲","建筑工程",15,"expertA@example.com","111-222-3333"
+2,"专家乙","信息技术",12,"expertB@example.com","222-333-4444"
+3,"专家丙","项目管理",10,"expertC@example.com","333-444-5555"
+4,"专家丁","环境工程",8,"expertD@example.com","444-555-6666"
+5,"专家戊","网络安全",13,"expertE@example.com","555-666-7777"
+6,"专家己","软件开发",9,"expertF@example.com","666-777-8888"
+7,"专家庚","采购管理",11,"expertG@example.com","777-888-9999"

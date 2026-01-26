@@ -1,0 +1,15 @@
+{
+    "header":{
+        "title":"关于{{ project_name }}的答疑函件",
+        "date":"{{ current_date }}",
+        "project_id":"{{ project_id }}"
+    },
+    "body":{
+        "question_summary":"以下是对贵方关于{{ project_name }}项目提出的问题的答复：",
+        "answers":[
+            "问题：[问题1]，答复：[答复1]。",
+            "问题：[问题2]，答复：[答复2]。",
+            "问题：[问题3]，答复：[答复3]。"
+        ]
+    }
+}
