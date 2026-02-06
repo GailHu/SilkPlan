@@ -39,12 +39,20 @@ AIBS 标书生成器是一个基于 AI 的自动化标书生成工具。你只�
 
 2. **安装依赖**
    ```bash
-   pip install -r requirements.txt
+   python3 -m venv myenv
+   source myenv/bin/activate  # Linux/macOS
+    # Windows: myenv\Scripts\activate
+    pip install -r requirements.txt -i https://mirrors.cloud.tencent.com/pypi/simple
+
    ```
 
 3. **安装 spaCy 中文大模型（强烈推荐）**
    ```bash
-   python -m spacy download zh_core_web_trf
+   # python -m spacy download zh_core_web_trf
+   # 上面命令安装错误，请手动安装
+   pip install spacy==3.8.5 -i https://mirrors.cloud.tencent.com/pypi/simple
+   pip install spacy-curated-transformers==0.3.0 -i https://mirrors.cloud.tencent.com/pypi/simple
+   pip install spacy-pkuseg==1.0.0 -i https://mirrors.cloud.tencent.com/pypi/simple
    ```
    > 没装大模型也能用，但内容相似度分析会不准确，且有警告。
 
@@ -62,6 +70,13 @@ AIBS 标书生成器是一个基于 AI 的自动化标书生成工具。你只�
 
 6. **运行主程序**
    ```bash
+
+   # 下载模型文件
+wget https://github.com/explosion/spacy-models/releases/download/zh_core_web_sm-3.7.0/zh_core_web_sm-3.7.0.tar.gz
+
+# 安装模型
+pip install zh_core_web_sm-3.7.0.tar.gz
+
    python app.py
    ```
    - 启动后可通过浏览器访问 Web 页面，或用 Postman 调用 API。

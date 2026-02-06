@@ -291,8 +291,12 @@ class LLMClient:
     async def close(self):
         """关闭会话"""
         if self.session and not self.session.closed:
-            await self.session.close()
-            self.session = None
+            try:
+                await self.session.close()
+            except Exception as e:
+                logger.warning(f"Error closing session: {e}")
+            finally:
+                self.session = None
 
     def start_new_chat(self, system_role: str):
         """开始新的对话"""
